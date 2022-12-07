@@ -36,9 +36,7 @@ body {
 }
 
 .logo {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+    margin-top: 15px;
     width: 270px;
 }
 
@@ -49,6 +47,10 @@ body {
     justify-content: flex-start;
     column-gap: 40px;
     flex-grow: 1;
+}
+
+.home {
+    color: #7FAD39;
 }
 
 .cartInfo {
@@ -161,8 +163,9 @@ body {
 
 .phone {
     display: flex;
-    justify-content: space-between;
-    width: 196px;
+    column-gap: 20px;
+    justify-content: flex-end;
+    width: 209px;
 }
 
 .phoneLogo {
@@ -177,7 +180,7 @@ body {
 .phoneNumber {
     display: flex;
     align-items: center;
-    width: 126px;
+    width: 123px;
 }
 
 .categories {
