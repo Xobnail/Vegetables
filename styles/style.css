@@ -1,6 +1,13 @@
+@font-face { 
+    font-family: 'Cerebri Sans Pro'; 
+    src: url('../fonts/CerebriSansPro-Regular.otf'); 
+ }
+
 body {
+    font-family: 'Cerebri Sans Pro';
     margin: 0;
 }
+
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
@@ -25,16 +32,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     column-gap: 10px;
-    background-color: #3C3C3C;
 }
 
 .quickSettings {
+    font-size: 12px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
     column-gap: 15px;
-    background-color: #3C3C3C;
 }
 
 .navbar {
@@ -77,6 +83,10 @@ body {
     width: 103px;
 }
 
+.summaryText {
+    color: #999999;
+}
+
 .content {
     background-color: #FFFFFF;
 }
@@ -111,6 +121,7 @@ body {
 }
 
 .picklistName {
+    color: white;
     width: 142px;
 }
 
@@ -134,7 +145,12 @@ body {
     border-bottom: 1px solid rgba(42, 42, 42, 0.2);
 }
 
+.defaultSearchText {
+    color: #999999;
+}
+
 .searchBtn {
+    color: white;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -176,6 +192,7 @@ body {
     display: flex;
     column-gap: 20px;
     justify-content: flex-end;
+    align-items: center;
     width: 209px;
 }
 
@@ -185,13 +202,22 @@ body {
     align-items: center;
     background-color: #F5F5F5;
     width: 50px;
+    height: 50px;
     border-radius: 100px;
 }
 
-.phoneNumber {
+.phoneInfo {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     width: 123px;
+    height: 32px;
+}
+
+.phoneSupport {
+    color: #999999;
+    font-size: 12px;
 }
 
 .categories {
