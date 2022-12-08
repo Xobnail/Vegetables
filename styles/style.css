@@ -27,6 +27,7 @@ body {
 }
 
 .quickInfo {
+    font-size: 12px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -66,7 +67,7 @@ body {
     flex-grow: 1;
 }
 
-.home {
+.greenText {
     color: #7FAD39;
 }
 
@@ -102,6 +103,7 @@ body {
     justify-content: space-between;
     column-gap: 20px;
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .picklist {
@@ -220,6 +222,12 @@ body {
     font-size: 12px;
 }
 
+.bannerSection {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .categories {
     box-sizing: border-box;
     width: 270px;
@@ -227,97 +235,53 @@ body {
     border: 1px solid rgba(42, 42, 42, 0.2);
 }
 
-.suggestion {
+.banner {
+    display: flex;
+    flex-flow: row nowrap;
     background-color: #F5F5F5;
+    justify-content: space-between;
     width: 850px;
     height: 441px;
 }
 
-.shopNowBtn {
-    background-color: #7FAD39;
+.bannerDescription {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 280px;
+    height: 268px;
+    margin-top: 86px;
+    margin-left: 77px;
+}
 
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 138px;
+}
+
+.shopNowBtn {
     width: 141px;
     height: 50px;
-
+    background-color: #7FAD39;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.shopNowBtn.suggest {
-    position: absolute;
-    left: 77px;
-    top: 304px;
+.bannerImg {
+    margin-top: 42px;
+    margin-right: 5px;
+    mix-blend-mode: darken;
 }
 
-.fresh {
-    background-color: #F5F5F5;
-    position: absolute;
-    top: 658px;
-    left: 390px;
-    width: 270px;
-    height: 270px;
+.bannerBaldText {
+    font-size: 40px;
 }
 
-.dried {
-    background-color: #F5F5F5;
-    position: absolute;
-    top: 658px;
-    left: 680px;
-    width: 270px;
-    height: 270px;
-}
-
-.vegetables {
-    background-color: #F5F5F5;
-    position: absolute;
-    top: 658px;
-    left: 970px;
-    width: 270px;
-    height: 270px;
-}
-
-.drink {
-    background-color: #F5F5F5;
-    position: absolute;
-    top: 658px;
-    left: 1260px;
-    width: 270px;
-    height: 270px;
-}
-
-.categoryBuyBtn {
-    background-color: #FFFFFF;
-    position: absolute;
-    width: 230px;
-    height: 43px;
-    top: 207px;
-    left: 20px;
-}
-
-.driedAndDrinkFruits {
-    position: absolute;
-    background-color: #F5F5F5;
-    width: 560px;
-    height: 263px;
-    top: 1028px;
-    left: 390px;
-}
-
-.shopNowBtn.driedAndDrink {
-    position: absolute;
-    top: 147px;
-    left: 290px;
-}
-
-.summerFruits {
-    position: absolute;
-    background-color: #F5F5F5;
-    width: 560px;
-    height: 263px;
-    top: 1028px;
-    left: 970px;
-}
-
-.shopNowBtn.summer {
-    position: absolute;
-    top: 147px;
-    left: 290px;
+.deliveryInfo {
+    color: #999999;
 }
