@@ -229,9 +229,14 @@ body {
 }
 
 .categories {
+    color: #999999;
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
+    padding-left: 20px;
     width: 270px;
     height: 441px;
+    line-height: 36px;
     border: 1px solid rgba(42, 42, 42, 0.2);
 }
 
@@ -258,7 +263,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    height: 138px;
+    height: 158px;
 }
 
 .shopNowBtn {
@@ -278,10 +283,20 @@ body {
     mix-blend-mode: darken;
 }
 
+.fruitFreshText {
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+}
+
 .bannerBaldText {
     font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #2A2A2A;
 }
 
 .deliveryInfo {
+    line-height: 19px;
     color: #999999;
 }
