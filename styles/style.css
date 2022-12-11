@@ -223,6 +223,7 @@ body {
 }
 
 .bannerSection {
+    margin-bottom: 20px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -299,4 +300,49 @@ body {
 .deliveryInfo {
     line-height: 19px;
     color: #999999;
+}
+
+/*grid*/
+
+.foodTypes {
+    display: grid;
+    width: 1140px;
+    height: 270px;
+    gap: 20px;
+    margin-bottom: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foodTypes > div {
+    display: grid;
+    grid-template-rows: 1fr 43px;
+    gap: 11px;
+    padding: 20px 10px 20px 20px;
+    background-color: #F5F5F5;
+    mix-blend-mode: darken;
+}
+
+.foodTypesText {
+    size: 20px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodTypes > div > img {
+    mix-blend-mode: darken;
+}
+
+.smallBanners {
+    height: 263px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.smallBanners > div {
+    background-color: #F5F5F5;
 }
