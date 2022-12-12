@@ -310,6 +310,7 @@ body {
     height: 633px;
     gap: 20px;
     row-gap: 100px;
+    margin-bottom: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 263px;
 }
@@ -388,6 +389,17 @@ body {
 
 .summerFruitsContext {
     grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.summerFruitsText {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    line-height: 34px;
+    color: #FFFFFF;
 }
 
 .driedDrinkFruitsBanner {
@@ -404,5 +416,36 @@ body {
 
 .driedDrinkFruitsContext {
     grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
 }
 
+.driedDrinkFruitsText {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.baldBannerText {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.bannerText {
+    font-size: 20px;
+}
+
+.productCarousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 500px;
+    width: 1140px;
+}
+
+.productCarousel > div {
+    background-color: #F5F5F5;
+}
