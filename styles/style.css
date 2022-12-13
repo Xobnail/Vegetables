@@ -441,11 +441,29 @@ body {
 .productCarousel {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
     gap: 20px;
     height: 500px;
     width: 1140px;
 }
 
-.productCarousel > div {
+.card {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 20px;
+}
+
+.cauliflowerImg {
+    background-image: url('../img/Cauliflower.png');
+    background-repeat: no-repeat;
     background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.organicQuinceImg {
+    background-image: url('../img/OrganicQuince.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
 }
