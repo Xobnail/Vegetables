@@ -454,6 +454,18 @@ body {
     gap: 20px;
 }
 
+.cardText {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.baldCardText {
+    font-weight: 900;
+}
+
 .cauliflowerImg {
     background-image: url('../img/Cauliflower.png');
     background-repeat: no-repeat;
@@ -466,4 +478,84 @@ body {
     background-repeat: no-repeat;
     background-color: #F5F5F5;
     background-blend-mode: darken;
+}
+
+.tomatoHybridImg {
+    background-image: url('../img/Tomato.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.blueberryImg {
+    background-image: url('../img/Blueberry.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.capsicumGreenImg {
+    background-image: url('../img/CapsicumGreen.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.pomegranateImg {
+    background-image: url('../img/Pomegranate.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.hazelnutsImg {
+    background-image: url('../img/Hazelnuts.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.greenAppleImg {
+    background-image: url('../img/GreenApple.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.raspberryImg {
+    background-image: url('../img/FreshRaspberry.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-blend-mode: darken;
+}
+
+.carouselHeader {
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.carouselHeaderText {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.carouselLeftArrow {
+    background-color: #F5F5F5;
+    border-radius: 600px;
+    background-image: url('../img/LeftArrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+}
+
+.carouselRightArrow {
+    background-color: #F5F5F5;
+    border-radius: 600px;
+    background-image: url('../img/RightArrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
 }
