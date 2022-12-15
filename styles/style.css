@@ -573,7 +573,6 @@ body {
     height: 898px;
     display: grid;
     grid-template-rows: 1fr 44px 74px 732px;
-    
 }
 
 .featureProductText {
@@ -701,7 +700,7 @@ body {
 }
 
 .blogSection {
-    height: 698px;
+    height: 835px;
     display: grid;
     grid-template-rows: 48px 60px 1fr;
 }
@@ -736,4 +735,49 @@ body {
     display: grid;
     grid-template-rows: 259px 24px 1fr;
     gap: 20px;
+}
+
+.cardInfo {
+    display: grid;
+    grid-template-columns: 24px 102px 22px 1fr;
+    gap: 10px;
+}
+
+.calendarIcon {
+    background-image: url('../img/CalendarIcon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.commentsIcon {
+    background-image: url('../img/CommentsIcon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardInfoText {
+    display: flex;
+    align-items: center;
+    color: #757575;
+    line-height: 19px;
+}
+
+.cardArticle {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.cardText {
+    color: #757575;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #191919;
+    height: 557px;
 }
