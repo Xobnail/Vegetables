@@ -781,3 +781,127 @@ body {
     background-color: #191919;
     height: 557px;
 }
+
+.footerContent {
+    display: grid;
+    grid-template-columns: 270px 174px 174px 460px;
+    grid-template-rows: 384px 153px;
+    gap: 20px;
+}
+
+.copyright {
+    grid-column: 1 / span 3;
+    grid-row: span 1 / -1;
+    padding-top: 8px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.paymentMethods {
+    grid-column: 4 / span 1;
+}
+
+.contactDetails {
+    padding-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-flow: column nowrap;
+}
+
+.footerLogo {
+    height: 70px;
+    background-image: url('../img/FooterLogo.png');
+    background-repeat: no-repeat;
+}
+
+.contactDetailsText {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.usefulLinks1 {
+    color: #FFFFFF;
+    padding-top: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.usefulLinksArticle {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.usefulLinks2 {
+    color: #FFFFFF;
+    padding-top: 95px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 35px;
+    flex-flow: column nowrap;
+}
+
+.subscribeText {
+    padding-top: 90px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribeTextArticle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.subscriptionForm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 460px;
+    height: 60px;
+}
+
+.emailForm {
+    color: #757575;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 287px;
+    background-color: #FFFFFF;
+}
+
+.subscribeBtn {
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 17px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    background-color: #7FAD39;
+}
+
+.footerSocialMediaLogos {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 26px;
+}
+
+.paymentMethodsLogos {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
